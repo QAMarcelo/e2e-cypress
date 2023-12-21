@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @cypress/xpath --dev
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Tailscale IPN;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Marcelo.Sanabria\.jdks\corretto-18.0.2\bin;C:\Program Files\nodejs\;C:\Users\Marcelo.Sanabria\AppData\Local\Microsoft\WindowsApps;C:\Users\Marcelo.Sanabria\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Marcelo.Sanabria\AppData\Roaming\npm;C:/Cygwin64\bin;C:\Users\Marcelo.Sanabria\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Marcelo.Sanabria\AppData\Local\Programs\Python\Python38\;C:/Cygwin64\bin;C:\Python38\;C:\Python38\Scripts\;C:\Program Files (x86)\Yarn\bin\;C:\Users\Marcelo.Sanabria\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Marcelo.Sanabria\AppData\Local\Programs\Python\Python38\;C:\Users\Marcelo.Sanabria\AppData\Local\Microsoft\WindowsApps;C:\Users\Marcelo.Sanabria\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Marcelo.Sanabria\AppData\Roaming\npm;C:\Users\Marcelo.Sanabria\AppData\Local\Android\Sdk;C:\Users\Marcelo.Sanabria\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.20.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:495:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "name": "davinci-e2e-cypress",
+    "version": "1.0.0",
+    "description": "E2E Davinci cypress",
+    "main": "index.js",
+    "scripts": {
+      "test": "test",
+      "cypress:open": "cypress open"
+    },
+    "keywords": [
+      "e2e",
+      "automation",
+      "framework",
+      "cypress"
+    ],
+    "author": "Marcelo Sanabria",
+    "license": "ISC",
+    "devDependencies": {
+      "@cypress/xpath": "^2.0.3",
+      "cypress": "^12.12.0",
+      "typescript": "^5.0.4"
+    },
+    "dependencies": {
+      "axios": "^1.4.0",
+      "telnet-client": "^2.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
